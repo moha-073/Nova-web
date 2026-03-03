@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: skyblue;
+  --text-color: #111827;
+  --card-color: #f3f4f6;
+}
+.dark {
+  --bg-color: #1f2937;
+  --text-color: #e5e7eb;
+  --card-color: #374151;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -o-transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  -moz-transition: background-color 0.3s ease, color 0.3s ease;
+  -ms-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
