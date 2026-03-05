@@ -7,12 +7,12 @@ import { Helmet } from "react-helmet-async";
 </Helmet>
 export const Testimonials = () => {
   return(
-    <div className="p-4 md:p-6 mt-8 md:mt-12 mb-4 mx-3 md:mx-5 bg-gradient-to-r from-green-700 via-green-500 rounded-2xl border-width border-1">
+    <div className="p-4 mx-3 mt-8 mb-4 md:p-6 md:mt-12 md:mx-5 bg-gradient-to-r from-green-700 via-green-500 rounded-2xl border-width border-1">
     <h1 className="text-2xl font-bold text-center dark:text-violet-800">What Our Clients Say</h1>
     <div className="my-6 ">
       <div className="flex items-center gap-3">
         <img src="
-/src/IMAGES/Sarah.png" className="rounded-full w-[50px] inline-block"  alt="Sarah"/>
+/IMAGES/Sarah.png" className="rounded-full w-[50px] inline-block"  alt="Sarah"/>
 
 <span className="inline-block ml-2 text-xl font-semibold">Sarah M., Small Business Owner</span>
       </div>
@@ -26,7 +26,7 @@ export const Testimonials = () => {
     </div>
     <div className="my-6">
       <div className="flex items-center gap-3">
-        <img src="/src/IMAGES/John.png" className="rounded-full w-[50px] inline-block" alt="John"/>
+        <img src="/IMAGES/John.png" className="rounded-full w-[50px] inline-block" alt="John"/>
       <span className="inline-block ml-2 text-xl font-semibold">John D., Marketing Director</span>
       </div>
       
@@ -37,7 +37,7 @@ export const Testimonials = () => {
     </div>
     <div className="my-6">
       <div className="flex items-center gap-3">
-        <img src="/src/IMAGES/Michael.png" className="rounded-full w-[50px] inline-block" alt="Michael"/>
+        <img src="/IMAGES/Michael.png" className="rounded-full w-[50px] inline-block" alt="Michael"/>
       <span className="inline-block ml-2 text-xl font-semibold"> Michael T., E-commerce Manager</span>
       </div>
       
