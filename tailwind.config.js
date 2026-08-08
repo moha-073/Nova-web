@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        progress: {
+          from: { width: "0%"},
+          to: { width: "100%"},
+        },
+      },
+      animation: {
+        progress: "progress 5s linear infinite",
+      }
+    },
   },
   plugins: [],
-}
+};

@@ -1,67 +1,26 @@
-import React from "react";
-import {Routes, Route} from "react-router-dom";
-import ReactDom from "react-dom/client";
-import Navbar from "./Navbar.jsx";
-import Home from "./Home.jsx";
-import { Services } from "./Services.jsx";
-import { About } from "./about.jsx";
-import { Testimonials } from "./Testimonials.jsx";
-import { Contact } from "./contact.jsx";
-import { Footer } from "./footer.jsx";
-import "./App.css"
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/layout/Navbar.jsx";
+import Home from "./pages/Home.jsx";
+import Services from "./pages/Services";
+import "./App.css";
+import Footer from "./components/layout/Footer.jsx";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
+
 
 
 const App = () => {
 return (
 
   <>
-    <Navbar />
-    <Routes>
-      <Route 
-      path="/"
-      element={
-        <>
-          <Home />
-          <Services />
-          <Testimonials />
-          <About />
-          <Contact />
-          <Footer />
-        </>
-      }
-      />
-      <Route
-        path="/services"
-        element={
-        <>
-        <Services />
-        <Testimonials />
-        <Footer />
-        </>
-          
-        
-      }
-      />
-      <Route
-          path="/contact"
-          element={
-            <>
-              <Contact />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path="/about"
-          element={
-            <>
-            <About />
-            <Footer />
-            </>
-          }
-        />
-    </Routes>
-    
+  <Navbar />
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/services" element={<Services />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/contact" element={<Contact />} />
+  </Routes>
+  <Footer />
   </>
 )}
 
