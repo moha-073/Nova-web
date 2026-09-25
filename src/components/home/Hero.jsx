@@ -17,7 +17,7 @@ const Hero = () => {
               NovaWeb Solutions
             </p>
 
-            <h1 className="mt-6 text-5xl font-extrabold text-white leading-tight md:text-6xl"
+            <h1 className="mt-6 text-4xl font-extrabold text-white leading-tight md:text-6xl sm:text-5xl"
             data-aos="fade-right"
             data-aos-duration="1200"
             >
@@ -75,7 +75,7 @@ const Hero = () => {
           >
 
             <img
-              src="IMAGES/laptop-mockup.jpg"
+              src="/IMAGES/laptop-mockup.jpg"
               alt="Web Design Illustration"
               className="w-[90%] max-w-lg mx-auto h-auto rounded-lg shadow-2xl border-4 border-cyan-500"
             />

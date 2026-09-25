@@ -21,11 +21,17 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
-    console.log("Form submitted:", formData);
+        console.log("Form submitted:", formData);
+        setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: ""
+    })
   };
 
   return (
-    <div className="p-8 border rounded-3xl border-slate-700 bg-slate-900 md:p-10">
+    <div className="min-w-0 p-6 border rounded-3xl border-slate-700 bg-slate-900 sm:p-8 md:p-10">
       <h3 className="text-2xl font-bold text-white">
         Send a Message 
       </h3>

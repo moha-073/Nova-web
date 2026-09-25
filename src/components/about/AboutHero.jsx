@@ -7,7 +7,7 @@ const AboutHero = () => {
           About Nova-Web 
         </p>
         
-        <h1 class="mt-6 text-5xl md:text-6xl font-extrabold text-white">
+        <h1 className="mt-6 text-5xl md:text-6xl font-extrabold text-white">
           Building Modern Websites 
           <span className="block text-cyan-400">
             That Drive Business Growth 

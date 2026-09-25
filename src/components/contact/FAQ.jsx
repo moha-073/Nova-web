@@ -43,10 +43,10 @@ const FAQ = () => {
                 <button
                   type = "button"
                   onClick={() => handleToggle(item.id)}
-                  className="flex items-center justify-between w-full gap-6 p-6 text-left"
+                  className="flex items-center justify-between w-full gap-4 p-4 text-left sm:gap-6 sm:p-6"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-lg font-semibold text-white">
+                  <span className="flex-1 text-base font-semibold text-white sm:text-lg">
                     {item.question}
                   </span>
                   <ChevronDown

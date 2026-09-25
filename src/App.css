@@ -11,21 +11,15 @@
 }
 
 * {
-  
   box-sizing: border-box;
-  
 }
-
 
 body {
   overflow-x: hidden;
   padding:0;
   margin:0;
-}
-
-body {
   background: var(--bg-color);
   color: var(--text-color);
   font-family: Inter, sans-serif;
-  transition: .3s;
+  transition: 0.3s;
 }

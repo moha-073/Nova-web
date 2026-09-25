@@ -1,4 +1,4 @@
-import Footer from "../components/layout/Footer.jsx";
+
 import CTA from "../components/home/CTA.jsx";
 import TestimonialSlider from "../components/home/TestimonialsSlider.jsx";
 import Services from "../components/home/ServicesPreview.jsx";
@@ -18,7 +18,7 @@ const Home = () => {
       <Process />
       <TestimonialSlider />
       <CTA />
-      <Footer />
+      
     </>
   );
 };

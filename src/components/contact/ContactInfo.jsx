@@ -25,9 +25,9 @@ const ContactInfo = () => {
         </div>
         {/* Contact layout */}
         
-        <div className="grid gap-10 mt-16 lg:grid-cols-[0.8fr_1.2fr]">
+        <div className="grid min-w-0 gap-10 mt-16 lg:grid-cols-[0.8fr_1.2fr]">
           
-          <div className="p-8 border rounded-3xl border-slate-700 bg-slate-900 md:p-10">
+          <div className="min-w-0 p-6 border rounded-3xl border-slate-700 bg-slate-900 sm:p-8 md:p-10">
             <h3 className="text-2xl font-bold text-white">
               Contact Information 
             </h3>
@@ -41,7 +41,7 @@ const ContactInfo = () => {
             return (
               <div
                 key={item.id}
-                className="flex gap-4"
+                className="flex items-start gap-3 sm:gap-4"
               >
                 <div className="flex items-center justify-center w-12 h-12 shrink-0 rounded-xl bg-cyan-500/10 text-cyan-400">
                   <Icon size={24} />
@@ -51,7 +51,7 @@ const ContactInfo = () => {
                   <h4 className="font-semibold text-white">
                   {item.title}
                 </h4>
-                <p className="mt-1 break-words text-cyan-400">
+                <p className="mt-1 break-all text-cyan-400">
                   {item.value}
                 </p>
                 <p className="mt-1 text-sm text-slate-400">

@@ -91,7 +91,7 @@ const Navbar = () => {
       </button>
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className="text-2xl text-white transition-transform duration-300 md:hidden hover-110"
+        className="text-2xl text-white transition-transform duration-300 md:hidden hover:scale-110"
       >
         {isMenuOpen ? <FaTimes /> : <FaBars />}
       </button>

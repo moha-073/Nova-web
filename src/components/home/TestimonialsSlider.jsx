@@ -54,7 +54,8 @@ const TestimonialSlider = () => {
     border
     border-slate-700
     rounded-3xl
-    p-10
+    p-6
+    sm:p-10
     text-center
     shadow-xl
     transition-all
@@ -86,7 +87,7 @@ const TestimonialSlider = () => {
             ))}
           </div>
 
-          <p className="mt-8 text-xl italic leading-9 text-slate-200 max-w-2xl mx-auto">
+          <p className="mt-8 text-xlg sm:text-xl italic leading-9 text-slate-200 max-w-2xl mx-auto">
             "{testimonial.review}"
           </p>
           <h3 className="mt-8 text-2xl font-bold text-white">
@@ -101,7 +102,7 @@ const TestimonialSlider = () => {
               className="w-12 h-12 text-white transition-all duration-300 flex items-center justify-center rounded-full bg-slate-700 hover:bg-cyan-500 hover:scale-110 active:scale-95"
             >
             
-              <FaQuoteLeft className="mx-auto" />
+              <FaChevronLeft className="mx-auto" />
               
             </button>
             <button

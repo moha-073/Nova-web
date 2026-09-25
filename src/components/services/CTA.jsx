@@ -25,7 +25,7 @@ const CTA = () => {
               Get a Free Quote 
             </Link>
             <Link
-            to="/"
+            to="/projects"
             className="px-8 py-4 font-semibold text-white transition duration-300 border border-white rounded-xl hover:bg-white hover:text-slate-900"
           >
             View Portfolio
