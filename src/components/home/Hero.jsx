@@ -40,7 +40,9 @@ const Hero = () => {
 
             <div className="flex flex-wrap gap-5 mt-10">
 
-              <button className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-full font-semibold text-white transition-all duration-300 hover:translate-y-1 hover:shadow-xl"
+              <a
+              href="/contact"
+               className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-full font-semibold text-white transition-all duration-300 hover:translate-y-1 hover:shadow-xl"
 
               data-aos="fade-up"
               data-aos-duration="1200"
@@ -50,9 +52,11 @@ const Hero = () => {
 
                 <FaArrowRight />
 
-              </button>
+              </a>
 
-              <button className="border border-white px-8 py-4 rounded-full text-white hover:bg-white hover:text-slate-900 transition-all duration-300 hover:translate-y-1 hover:shadow-xl"
+              <a
+              href="/projects"
+               className="border border-white px-8 py-4 rounded-full text-white hover:bg-white hover:text-slate-900 transition-all duration-300 hover:translate-y-1 hover:shadow-xl"
 
               data-aos="fade-up"
               data-aos-duration="1200"
@@ -60,7 +64,7 @@ const Hero = () => {
 
                 View Portfolio
 
-              </button>
+              </a>
 
             </div>
             

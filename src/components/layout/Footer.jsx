@@ -53,7 +53,7 @@ const contacts = [
   {
     icon: FaPhone,
     title: "Phone",
-    value: "+254 724 119 748",
+    value: "+254 724 119 748 / +254 118 326 061",
   },
   {
     icon: FaMapMarkerAlt,

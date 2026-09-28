@@ -28,13 +28,17 @@ const CTA = () => {
         </p>
 
         <div className="mt-12 flex flex-wrap justify-center gap-6">
-          <button className="flex items-center gap-2 rounded-full bg-white px-8 py-4 font-semibold text-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+          <a 
+          href="/contact"
+           className="flex items-center gap-2 rounded-full bg-white px-8 py-4 font-semibold text-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
             Start Your Project
             <FaArrowRight />
-          </button>
-          <button className="rounded-full border border-white px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-white hover:text-slate-900">
+          </a>
+          <a
+          href="/projects"
+           className="rounded-full border border-white px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-white hover:text-slate-900">
             View Portfolio
-          </button>
+          </a>
 
         </div>
 

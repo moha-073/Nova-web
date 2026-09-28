@@ -37,10 +37,12 @@ const OurStory = () => {
         {/*  Right */}
 
         <div className="flex items-center justify-center">
-          <div className="flex h-[450px] w-full items-center justify-center rounded-3xl border border-slate-700 bg-slate-900 ">
-            <p className="text-slate-500">
-              About Image Placeholder 
-            </p>
+          <div className="w-full overflow-hidden border rounded-3xl border-slate-700 bg-slate-900">
+            <img
+              src={aboutData.image}
+              alt="NovaWeb web development workspace"
+              className="object-fit w-full h-auto transition-transform duration-500 hover:scale-105"
+            />
           </div>
         </div>
         

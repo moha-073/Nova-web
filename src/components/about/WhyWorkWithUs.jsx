@@ -28,7 +28,7 @@ const WhyWorkWithUs = () => {
             return (
               <div
                 key={item.id}
-                className="flex gap-6 p-8 transition-all duration-300 border rounded-2xl border-slate-700 bg-slate-800/50 hover:-translate-y-2 hover:border-cyan-400"
+                className="flex flex-col gap-5 p-5 transition-all duration-300 border rounded-2xl border-slate-700 bg-slate-800/50 hover:-translate-y-2 hover:border-cyan-400 sm:flex-row sm:gap-6 sm:p-6 md:p-8"
               >
                 <div className="flex items-center justify-center w-16 h-16 shrink-0 rounded-xl bg-cyan-500/10 text-cyan-400">
                   <Icon size={30} />

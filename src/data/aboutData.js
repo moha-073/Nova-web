@@ -5,7 +5,7 @@ export const aboutData = {
   stand out online through modern design, fast performance, and user-focused
   development. We believe that every business deserves a professional website
   that not only looks great but also delivers real results.`,
-  image: "/IMAGES/about-story.jpg",
+  image: "IMAGES/OurStoryNovaWeb.png",
 
   highlights: [
     "Modern & Responsive Design",

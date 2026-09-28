@@ -86,9 +86,11 @@ const Navbar = () => {
       </div>
 
 
-      <button className="relative items-center hidden gap-2 px-6 py-3 overflow-hidden font-semibold text-white transition-all duration-300 rounded-full bg-cyan-500 hover:bg-cyan-600 hover:-translate-y-1 hover:shadow-xl md:flex">Get Free Quote
+      <a
+      href="/contact"
+       className="relative items-center hidden gap-2 px-6 py-3 overflow-hidden font-semibold text-white transition-all duration-300 rounded-full bg-cyan-500 hover:bg-cyan-600 hover:-translate-y-1 hover:shadow-xl md:flex">Get Free Quote
         <FaArrowRight />
-      </button>
+      </a>
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         className="text-2xl text-white transition-transform duration-300 md:hidden hover:scale-110"
@@ -116,12 +118,13 @@ const Navbar = () => {
 
                 </NavLink>
               ))}
-              <button
+              <a
+              href="/contact"
                 className="flex items-center justify-center gap-2 px-6 py-3 mt-4 font-semibold text-white transition-all duration-300 rounded-full bg-cyan-500 hover:bg-cyan-600"
               > Get Free Quote 
               <FaArrowRight />
 
-              </button>
+              </a>
 
             </div>
 
